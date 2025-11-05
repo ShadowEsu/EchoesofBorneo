@@ -1,1 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.head1{
+    background-image: url("/photos/premium_photo-1669613233557-1676c121fe73.avif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 10%;
+    border-color: black;
+    border-bottom: 1px solid black;
+    font-family: "Poppins", sans-serif;
+    overflow: hidden;
+    min-height: 60vh;
+}
+
+.headh1{
+    font-size: 3.5em;
+    margin: 0.2em 0;
+    color: #00796b;
+    position: relative;
+    z-index: 1;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);
+}
+
+.headh2{
+    font-size: 2em;
+    margin: 0.2em 0;
+    color: #000000;
+    font-family: "Momo Signature", cursive;
+    position: relative;
+    z-index: 1;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);
+}
+
+.headh3{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2em;
+    margin: 1em 0;
+    position: relative;
+    z-index: 1;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);
+}
+
+.programs{
+    background-color: #00796b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    z-index: 1;
+    position: relative;
+}
+
+.join{
+    background-color: #3ace7a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    z-index: 1;
+    position: relative;
+    
+}
 
